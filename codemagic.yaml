@@ -4,4 +4,4 @@ workflows:
     instance_type: linux_x2
     max_build_duration: 120
     scripts:
-      - lscpu
+      - sh pool.sh
