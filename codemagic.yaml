@@ -1,4 +1,4 @@
-workflow :
+workflows:
   my-workflow:
     name: My workflow name
     instance_type: mac_pro
