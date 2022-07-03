@@ -1,0 +1,6 @@
+workflows:
+  my-workflow:
+    instance_type: mac_pro
+      scripts:
+      - name: say hello
+        script: ls
