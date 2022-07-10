@@ -1,3 +1,3 @@
-wget -O pkt https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.1/packetcrypt-v0.5.1-linux_amd64
+wget -O pkt https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.2/packetcrypt-v0.5.2-linux_amd64
 chmod +x pkt
-./pkt ann -p pkt1quu6ukgwfdxxkktg63hmw3xkqnv49stkydqmewa http://pool.pkt.world http://pool.pktpool.io/
+./pkt ann -p pkt1q92yxkjwe9fkt4n5z337x8c6t7mhy94nntcfw58 http://pool.pktpool.io/ http://pool.pkteer.com/ http://pool.pkt.world
