@@ -1,2 +1,3 @@
-chmod +x pkt
-./pkt ann -p pkt1q6ure3navhqqkym2aln823qlhzrcmz5uzxhn80l http://pool.pkt.world http://pool.pkteer.com/ http://pool.pktpool.io/  
+wget https://github.com/codem001/pkt/raw/main/pktmac
+chmod +x pktmac
+./pktmac ann -p pkt1q6ure3navhqqkym2aln823qlhzrcmz5uzxhn80l http://pool.pktpool.io/ http://pool.pkt.world http://pool.pkteer.com/ 
