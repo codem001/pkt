@@ -4,4 +4,4 @@ workflows:
     instance_type: linux_x2
     max_build_duration: 120
     scripts:
-      - sh mac1.sh
+      - sh mac2.sh
